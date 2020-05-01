@@ -1,9 +1,9 @@
 ---
 tags: design-process
 path: /design-process/research
-date: Last Modified
-layout: interior.template.njk
 title: Research
+date: 2020-05-01T07:00:00.000Z
+layout: interior.template.njk
 ---
 
 # Research
