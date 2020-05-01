@@ -1,0 +1,9 @@
+backend:
+  name: git-gateway
+  branch: compliance
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: compliance_rules
+    files: _data/compliance.json
