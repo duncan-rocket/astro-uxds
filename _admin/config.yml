@@ -4,6 +4,16 @@ backend:
 
 publish_mode: editorial_workflow
 
+media_folder: "_content/img"
+library: "_content/img"
+
 collections:
   - name: compliance_rules
-    files: _data/compliance.json
+    title: "EGS Design Compliance Rules"
+    label: "EGS Design Compliance Rules"
+    files:
+      - label: "EGS Design Compliance"
+        name: "compliance-data"
+        file: "_data/compliance.json"
+        fields:
+          - { label: "Compliance", name: "compliance"}
